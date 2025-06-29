@@ -10,6 +10,6 @@ public class AppTest {
         assertEquals(6, App.add(3, 3));
         assertEquals(15, App.add(7, 8));
         assertEquals(0, App.add(0, 0));
-        assertEquals(1, App.add(2, -3));
+        assertEquals(-1, App.add(2, -3));
     }
 }
